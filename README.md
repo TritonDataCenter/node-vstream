@@ -193,6 +193,14 @@ The context for each warning keeps track of the history through all
 vstream-wrapped Transform streams.  vstream also bumps a counter for each
 warning, which is why "nfoundusers" is 1.
 
+## PipelineStream
+
+vstream also provides a PipelineStream class, which takes an array of streams
+that should be piped into each other (A piped to B piped to C) and wraps them
+into a single stream P.  Writes to P are directed to A, and reads from P read
+from C.  This is mainly useful when you want to expose a single stream that's
+logically made up of a couple of existing streams.
+
 
 ## Design notes
 
