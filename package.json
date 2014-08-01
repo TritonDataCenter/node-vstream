@@ -12,6 +12,7 @@
 		"extsprintf": "1.0.3"
 	},
 	"devDependencies": {
+		"lstream": "0.0.4",
 		"vasync": "1.5.0"
 	},
 	"license": "MIT"
