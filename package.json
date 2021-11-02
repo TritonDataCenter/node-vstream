@@ -5,7 +5,7 @@
 	"main": "./lib/vstream.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/joyent/node-vstream.git"
+		"url": "https://github.com/joyent/node-vstream.git"
 	},
 	"dependencies": {
 		"assert-plus": "0.1.5",
