@@ -1,11 +1,11 @@
 {
 	"name": "vstream",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "instrumentable streams mix-ins",
 	"main": "./lib/vstream.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/joyent/node-vstream.git"
+		"url": "https://github.com/joyent/node-vstream.git"
 	},
 	"dependencies": {
 		"assert-plus": "0.1.5",
